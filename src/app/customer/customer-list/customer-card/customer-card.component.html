@@ -1,0 +1,54 @@
+<se-container display="block" direction="row" width="100%"
+    style="padding: 5rem;">
+    <div class="frame container">
+        <div class="container-header">
+            <div class="header-item">
+                <p class="bold">{{ quoteId }}</p>
+                <p class="grey">{{ business }}</p>
+            </div>
+            <div class="header-item-end">
+                <se-icon option="button" color="standard" (click)="onClickEdit()">
+                    action_editor
+                </se-icon>
+                <se-dropdown alignment="right">
+                    <se-icon 
+                        slot="trigger" 
+                        option="button">
+                        other_vertical
+                    </se-icon>
+                    <se-list option="dropdown">
+                      <se-list-item 
+                        icon="action_duplicate" 
+                            description="Duplicate"
+                        (click)="onDuplicate()">
+                      </se-list-item>
+                      <se-list-item 
+                        icon="action_delete" 
+                        description="Delete"
+                        (click)="onDelete()">
+                      </se-list-item>
+                    </se-list>
+                  </se-dropdown>
+            </div>
+        </div>
+        <se-divider></se-divider>
+        <div class="container-body">
+            <div class="body-item">
+                <se-icon color="primary" style="align-self: center">action_datasheet</se-icon>
+                <p class="body bold">{{ sites }} Sites</p>
+            </div>
+            <div class="body-item-end">
+                <p class="grey">Created</p> 
+                <p class="body bold" *ngIf="createdBy && createdOn">
+                    {{ createdOn }} - {{ createdBy }}
+                </p>
+            </div>
+            <div class="body-item">
+                <p class="grey">Last Modification</p>
+                <p class="body bold" *ngIf="lastModificationBy && lastModificationOn">
+                    {{ lastModificationOn }} - {{ lastModificationBy }}
+                </p>
+            </div>
+        </div>
+    </div>
+</se-container>
