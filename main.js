@@ -1,5 +1,3 @@
-var $localize=Object.assign(void 0===$localize?{}:$localize,{locale:"en-US"});
-"use strict";(function(global){global.ng=global.ng||{};global.ng.common=global.ng.common||{};global.ng.common.locales=global.ng.common.locales||{};const u=undefined;function plural(n){let i=Math.floor(Math.abs(n)),v=n.toString().replace(/^[^.]*\.?/,"").length;if(i===1&&v===0)return 1;return 5}global.ng.common.locales["en-us-posix"]=["en-US-POSIX",[["a","p"],["AM","PM"],u],[["AM","PM"],u,u],[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Su","Mo","Tu","We","Th","Fr","Sa"]],u,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],["January","February","March","April","May","June","July","August","September","October","November","December"]],u,[["B","A"],["BC","AD"],["Before Christ","Anno Domini"]],0,[6,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",u,"{1} 'at' {0}",u],[".",",",";","%","+","-","E","\xD7","0/00","INF","NaN",":"],["0.######","0%","\xA4\xA00.00","0.000000E+000"],"USD","$","US Dollar",{},"ltr",plural,[[["mi","n","in the morning","in the afternoon","in the evening","at night"],["midnight","noon","in the morning","in the afternoon","in the evening","at night"],u],[["midnight","noon","morning","afternoon","evening","night"],u,u],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]})(typeof globalThis!=="undefined"&&globalThis||typeof global!=="undefined"&&global||typeof window!=="undefined"&&window);;
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
 /***/ 0:
@@ -247,17 +245,25 @@ class CustomerComponent {
 }
 CustomerComponent.ɵfac = function CustomerComponent_Factory(t) { return new (t || CustomerComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_services_customer_service__WEBPACK_IMPORTED_MODULE_3__["CustomerService"]), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_services_customer_search_service__WEBPACK_IMPORTED_MODULE_4__["CustomerSearchService"])); };
 CustomerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: CustomerComponent, selectors: [["app-customer"]], decls: 12, vars: 0, consts: function () { let i18n_0; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_1404562062772167714$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_1 = goog.getMsg("Customer List");
-        i18n_0 = MSG_EXTERNAL_1404562062772167714$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_1;
+        /**
+         * @desc Header for the Customer List section
+         * @meaning Container header
+         */
+        const MSG_EXTERNAL_customerListHeader$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_1 = goog.getMsg("Customer List");
+        i18n_0 = MSG_EXTERNAL_customerListHeader$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_1;
     }
     else {
-        i18n_0 = "Customer List";
+        i18n_0 = $localize `:Container header|Header for the Customer List section@@customerListHeader:Customer List`;
     } let i18n_2; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_4383218025960574212$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_3 = goog.getMsg(" Create Customer ");
-        i18n_2 = MSG_EXTERNAL_4383218025960574212$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_3;
+        /**
+         * @desc Label for Create Customer button
+         * @meaning Button label
+         */
+        const MSG_EXTERNAL_customerCreateButton$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_3 = goog.getMsg(" Create Customer ");
+        i18n_2 = MSG_EXTERNAL_customerCreateButton$$SRC_APP_CUSTOMER_CUSTOMER_COMPONENT_TS_3;
     }
     else {
-        i18n_2 = " Create Customer ";
+        i18n_2 = $localize `:Button label|Label for Create Customer button@@customerCreateButton: Create Customer `;
     } return [["display", "block", "padding", "large", 2, "overflow", "visible"], ["padding", "medium"], i18n_0, ["option", "raised", "color", "primary", "icon", "new_project", 1, "create-button"], i18n_2, ["display", "grid", "rowSize", "5rem", 2, "overflow", "visible"], ["enlarged", "horizontal"]]; }, template: function CustomerComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "se-container", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "se-block");
@@ -541,7 +547,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 19, vars: 0, consts: [["app-title", "EBO Software Assurance"], ["id", "app2-sidemenu"], ["item", "About"], ["app-title", "Test Advisor", "version", "1.2.3", "image-url", "url(https://www.nozominetworks.com/wp-content/uploads/2019/01/Nozomi-Networks-and-Schneider-Electric-Partner-Secure-Industrial-Infrastructure.jpg)"], ["item", "My custom item"], ["item", "Close", "did-click", "document.getElementById('app2-sidemenu').toggle()"], ["slot", "end"], ["alignment", "right"], ["slot", "trigger", "option", "inherit", "icon", "user_standard", "icon-color", "primary"], ["option", "dropdown"], ["item", "Language"], ["item", "English", "href", "/en"], ["item", "Espa\u00F1ol", "href", "/es"], ["item", "Logout"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 20, vars: 0, consts: [["app-title", "EBO Software Assurance"], ["id", "app2-sidemenu"], ["item", "About"], ["app-title", "Test Advisor", "version", "1.2.3", "image-url", "url(https://www.nozominetworks.com/wp-content/uploads/2019/01/Nozomi-Networks-and-Schneider-Electric-Partner-Secure-Industrial-Infrastructure.jpg)"], ["item", "My custom item"], ["item", "Close", "did-click", "document.getElementById('app2-sidemenu').toggle()"], ["slot", "end"], ["alignment", "right"], ["slot", "trigger", "option", "inherit", "icon", "user_standard", "icon-color", "primary"], ["option", "dropdown"], ["item", "Language"], ["item", "English", "href", "/en"], ["item", "Espa\u00F1ol", "href", "/es"], ["item", "Fran\u00E7aise", "href", "/fr"], ["item", "Logout"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "se-header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "se-sidemenu", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "se-sidemenu-item", 2);
@@ -564,9 +570,10 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "se-list-group", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "se-list-item", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "se-list-item", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "se-list-item", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "se-divider");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "se-list-item", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "se-divider");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "se-list-item", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -629,7 +636,17 @@ class CustomerSearchComponent {
     }
 }
 CustomerSearchComponent.ɵfac = function CustomerSearchComponent_Factory(t) { return new (t || CustomerSearchComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_customer_search_service__WEBPACK_IMPORTED_MODULE_1__["CustomerSearchService"])); };
-CustomerSearchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomerSearchComponent, selectors: [["app-customer-search"]], decls: 6, vars: 0, consts: [["display", "block", "margin", "small"], ["labelWidth", "0", "block", ""], [1, "with-icon"], ["type", "search", "placeholder", "Search by Name", 1, "search-input", 3, "input"], ["color", "primary"]], template: function CustomerSearchComponent_Template(rf, ctx) { if (rf & 1) {
+CustomerSearchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomerSearchComponent, selectors: [["app-customer-search"]], decls: 6, vars: 0, consts: function () { let i18n_0; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        /**
+         * @desc Placeholder for search by name input field
+         * @meaning Input placeholder
+         */
+        const MSG_EXTERNAL_customerSearchPlaceholder$$SRC_APP_CUSTOMER_CUSTOMER_SEARCH_CUSTOMER_SEARCH_COMPONENT_TS_1 = goog.getMsg("Search by Name");
+        i18n_0 = MSG_EXTERNAL_customerSearchPlaceholder$$SRC_APP_CUSTOMER_CUSTOMER_SEARCH_CUSTOMER_SEARCH_COMPONENT_TS_1;
+    }
+    else {
+        i18n_0 = $localize `:Input placeholder|Placeholder for search by name input field@@customerSearchPlaceholder:Search by Name`;
+    } return [["display", "block", "margin", "small"], ["labelWidth", "0", "block", ""], [1, "with-icon"], ["type", "search", "placeholder", i18n_0, 1, "search-input", 3, "input"], ["color", "primary"]]; }, template: function CustomerSearchComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "se-block", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "se-form-field", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -854,19 +871,33 @@ class TabbarComponent {
 }
 TabbarComponent.ɵfac = function TabbarComponent_Factory(t) { return new (t || TabbarComponent)(); };
 TabbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TabbarComponent, selectors: [["app-tabbar"]], decls: 6, vars: 0, consts: function () { let i18n_0; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_8634025124141616528$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_1 = goog.getMsg("Customers");
-        i18n_0 = MSG_EXTERNAL_8634025124141616528$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_1;
+        /**
+         * @desc Display name for the Customers tab
+         * @meaning Tab display name
+         */
+        const MSG_EXTERNAL_customerTabName$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_1 = goog.getMsg("Customers");
+        i18n_0 = MSG_EXTERNAL_customerTabName$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_1;
     }
     else {
-        i18n_0 = "Customers";
-    } return [["color", "primary"], [1, "active"], i18n_0]; }, template: function TabbarComponent_Template(rf, ctx) { if (rf & 1) {
+        i18n_0 = $localize `:Tab display name|Display name for the Customers tab@@customerTabName:Customers`;
+    } let i18n_2; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        /**
+         * @desc Display name for the Quotes tab
+         * @meaning Tab display name
+         */
+        const MSG_EXTERNAL_quotesTabName$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_3 = goog.getMsg("Quotes");
+        i18n_2 = MSG_EXTERNAL_quotesTabName$$SRC_APP_TABBAR_TABBAR_COMPONENT_TS_3;
+    }
+    else {
+        i18n_2 = $localize `:Tab display name|Display name for the Quotes tab@@quotesTabName:Quotes`;
+    } return [["color", "primary"], [1, "active"], i18n_0, i18n_2]; }, template: function TabbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "se-tabbar", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](3, 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Quotes");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](5, 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
