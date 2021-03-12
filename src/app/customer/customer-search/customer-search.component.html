@@ -1,0 +1,13 @@
+<se-block display="block" margin="small">
+  <se-form-field labelWidth="0" block>
+    <div class="with-icon">
+      <input
+        class="search-input"
+        type="search"
+        placeholder="Search by Name"
+        (input)="onSearchChange($event.target.value)"
+      />
+      <se-icon color="primary">action_search_stroke</se-icon>
+    </div>
+  </se-form-field>
+</se-block>
