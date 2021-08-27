@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2c925d21.chunk.css",
-    "main.js": "/static/js/main.01a7e9ad.chunk.js",
-    "main.js.map": "/static/js/main.01a7e9ad.chunk.js.map",
+    "main.js": "/static/js/main.a2758ae0.chunk.js",
+    "main.js.map": "/static/js/main.a2758ae0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ace167e8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ace167e8.js.map",
     "static/css/2.7993411b.chunk.css": "/static/css/2.7993411b.chunk.css",
-    "static/js/2.aa8c57ad.chunk.js": "/static/js/2.aa8c57ad.chunk.js",
-    "static/js/2.aa8c57ad.chunk.js.map": "/static/js/2.aa8c57ad.chunk.js.map",
+    "static/js/2.0633bd46.chunk.js": "/static/js/2.0633bd46.chunk.js",
+    "static/js/2.0633bd46.chunk.js.map": "/static/js/2.0633bd46.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7993411b.chunk.css.map": "/static/css/2.7993411b.chunk.css.map",
     "static/css/main.2c925d21.chunk.css.map": "/static/css/main.2c925d21.chunk.css.map",
-    "static/js/2.aa8c57ad.chunk.js.LICENSE.txt": "/static/js/2.aa8c57ad.chunk.js.LICENSE.txt",
+    "static/js/2.0633bd46.chunk.js.LICENSE.txt": "/static/js/2.0633bd46.chunk.js.LICENSE.txt",
+    "static/media/CONFRA_LOGO_04.f20b1736.png": "/static/media/CONFRA_LOGO_04.f20b1736.png",
     "static/media/basketball.svg": "/static/media/basketball.6990a700.svg",
-    "static/media/confra-athletism-2.526202b9.jpg": "/static/media/confra-athletism-2.526202b9.jpg",
-    "static/media/confra-athletism.c16fb908.jpg": "/static/media/confra-athletism.c16fb908.jpg",
-    "static/media/confra-futsal.a34f76ef.jpg": "/static/media/confra-futsal.a34f76ef.jpg",
     "static/media/facebook.1e46937b.svg": "/static/media/facebook.1e46937b.svg",
     "static/media/football.svg": "/static/media/football.db05e621.svg",
     "static/media/golf.svg": "/static/media/golf.899ef351.svg",
@@ -33,7 +31,7 @@
     "static/media/logo2.9d80f856.jpg": "/static/media/logo2.9d80f856.jpg",
     "static/media/logo3.c581770b.jpg": "/static/media/logo3.c581770b.jpg",
     "static/media/logo4.e7a93faa.jpg": "/static/media/logo4.e7a93faa.jpg",
-    "static/media/pingPong.svg": "/static/media/pingPong.c75e116e.svg",
+    "static/media/pingPong.svg": "/static/media/pingPong.2d3f02a3.svg",
     "static/media/running.svg": "/static/media/running.9c05f139.svg",
     "static/media/swimmer.svg": "/static/media/swimmer.e76dccd3.svg",
     "static/media/tennis.svg": "/static/media/tennis.91817dfd.svg",
@@ -43,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.ace167e8.js",
     "static/css/2.7993411b.chunk.css",
-    "static/js/2.aa8c57ad.chunk.js",
+    "static/js/2.0633bd46.chunk.js",
     "static/css/main.2c925d21.chunk.css",
-    "static/js/main.01a7e9ad.chunk.js"
+    "static/js/main.a2758ae0.chunk.js"
   ]
 }
