@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0219d83.chunk.css",
-    "main.js": "/static/js/main.d248ff31.chunk.js",
-    "main.js.map": "/static/js/main.d248ff31.chunk.js.map",
+    "main.css": "/static/css/main.43d0499f.chunk.css",
+    "main.js": "/static/js/main.43c6c1b9.chunk.js",
+    "main.js.map": "/static/js/main.43c6c1b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ace167e8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ace167e8.js.map",
     "static/css/2.7993411b.chunk.css": "/static/css/2.7993411b.chunk.css",
-    "static/js/2.5da57601.chunk.js": "/static/js/2.5da57601.chunk.js",
-    "static/js/2.5da57601.chunk.js.map": "/static/js/2.5da57601.chunk.js.map",
+    "static/js/2.42718eca.chunk.js": "/static/js/2.42718eca.chunk.js",
+    "static/js/2.42718eca.chunk.js.map": "/static/js/2.42718eca.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7993411b.chunk.css.map": "/static/css/2.7993411b.chunk.css.map",
-    "static/css/main.b0219d83.chunk.css.map": "/static/css/main.b0219d83.chunk.css.map",
-    "static/js/2.5da57601.chunk.js.LICENSE.txt": "/static/js/2.5da57601.chunk.js.LICENSE.txt",
+    "static/css/main.43d0499f.chunk.css.map": "/static/css/main.43d0499f.chunk.css.map",
+    "static/js/2.42718eca.chunk.js.LICENSE.txt": "/static/js/2.42718eca.chunk.js.LICENSE.txt",
     "static/media/CONFRA_LOGO_04.f20b1736.png": "/static/media/CONFRA_LOGO_04.f20b1736.png",
     "static/media/athletism.png": "/static/media/athletism.220cbd73.png",
     "static/media/facebook.1e46937b.svg": "/static/media/facebook.1e46937b.svg",
     "static/media/instagram.240057c4.svg": "/static/media/instagram.240057c4.svg",
+    "static/media/jenniferOshiro.9a93610a.png": "/static/media/jenniferOshiro.9a93610a.png",
+    "static/media/juanHiga.e273f9be.png": "/static/media/juanHiga.e273f9be.png",
+    "static/media/kentaHeianna.a2ede178.png": "/static/media/kentaHeianna.a2ede178.png",
     "static/media/location-cenard.215be1ed.jpg": "/static/media/location-cenard.215be1ed.jpg",
     "static/media/location-golf-club.5db1f16d.jpg": "/static/media/location-golf-club.5db1f16d.jpg",
     "static/media/location-lawn-tennis.7b9dce75.jpg": "/static/media/location-lawn-tennis.7b9dce75.jpg",
@@ -34,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.ace167e8.js",
     "static/css/2.7993411b.chunk.css",
-    "static/js/2.5da57601.chunk.js",
-    "static/css/main.b0219d83.chunk.css",
-    "static/js/main.d248ff31.chunk.js"
+    "static/js/2.42718eca.chunk.js",
+    "static/css/main.43d0499f.chunk.css",
+    "static/js/main.43c6c1b9.chunk.js"
   ]
 }
