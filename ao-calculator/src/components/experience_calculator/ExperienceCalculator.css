@@ -1,0 +1,24 @@
+.experience-calculator {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-calculator h1 {
+    color: #333;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.results p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
