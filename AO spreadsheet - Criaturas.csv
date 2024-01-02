@@ -1,0 +1,53 @@
+Name,HP,Attack,Evasion,Reward,Experience,Exp_Hp
+Dragón Rojo (Magma),8500,400,320,4200,400000,47.06
+Golem,23000,200,50,4200,400000,17.39
+Cthulu,13000,-,-,2000 monedas,180000,13.85
+Medusa,6500,220,160,-,15000,2.31
+Beholder,1300,350,200,300 monedas,2500,1.92
+Calamar,1300,100,150,-,2500,1.92
+Hormiga Gigante,400,150,150,90 monedas,700,1.75
+Quarck,30,65,25,-,50,1.67
+Tigre salvaje,600,200,140,-,1000,1.67
+Lord Orco,1500,170,100,600 monedas,2500,1.67
+Liche,1800,220,190,800 monedas,3000,1.67
+Galeón Fantasmal,6000,150,425,-,10000,1.67
+Jabalí salvaje,515,130,70,-,850,1.65
+Oso pardo,515,250,65,Piel de oso,800,1.55
+Murcielago,10,15,10,-,15,1.50
+Bandido,200,70,50,80 monedas y ropa de pordiosero,300,1.50
+Araña,1000,150,70,200 monedas,1500,1.50
+Viuda negra,4000,150,90,1000 monedas,6000,1.50
+Ogro,2000,260,230,500 monedas y un garrote,3000,1.50
+Leviatan,6000,220,180,1800 monedas,9000,1.50
+Pequeño Dragón Rojo,3000,380,250,1500 monedas,4500,1.50
+Gran Dragon Rojo (DD),200000,400,320,-,300000,1.50
+Bruja,4200,200,250,2200 monedas,6000,1.43
+Cuervo,30,25,35,-,40,1.33
+Lobo,75,80,25,Piel de lobo,100,1.33
+Mago Malvado,3000,200,150,1500 monedas,4000,1.33
+Orco brujo,1200,150,160,800 monedas,1500,1.25
+Esqueleto,50,30,30,30 monedas,60,1.20
+Asesino,1000,200,200,350 monedas y daga +1,1200,1.20
+Orco,350,100,75,Hacha orca,395,1.13
+Acechador Invisible,4500,200,140,1000 monedas,5000,1.11
+Escorpion,32,30,10,-,35,1.09
+Hormiga,5,5,3,-,5,1.00
+Aguila,10,15,30,-,10,1.00
+Rata,15,10,20,-,15,1.00
+Esqueleto guerrero,150,60,50,80 monedas,150,1.00
+Lord Zombie,350,150,35,150 monedas,350,1.00
+Tortuga gigante,500,90,30,Escudo de tortuga,500,1.00
+Serpiente,22,10,0,-,20,0.91
+Zombie,250,100,20,70 monedas,200,0.80
+Demonio,15000,230,180,5000 monedas,12000,0.80
+Duende,210,80,60,80 monedas,160,0.76
+Servidor del Mal,700,200,140,200 monedas,500,0.71
+Gallo salvaje,15,3,3,Pollo,10,0.67
+Ucorno,1500,100,100,50 leños,600,0.40
+Duende Molesto,310,80,60,-,100,0.32
+Golem de hielo,20000,220,150,10000 monedas y fragmento de cristal,4000,0.20
+Pingüino,3000,100,70,1500 monedas,500,0.17
+Lobo Invernal,6000,150,70,2500 monedas y piel de lobo invernal,1000,0.17
+Goblin,600,70,40,Casco de hierro,95,0.16
+Oso polar,15000,200,100,7000 monedas y piel de oso polar,2000,0.13
+Árbol De La Jungla,1500,100,100,100 leños,100,0.07
