@@ -1,0 +1,46 @@
+.image-with-list {
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 600px; /* Adjust this value as needed */
+    width: 100%; /* Makes the image responsive */
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto; /* Centers the image */
+    margin-right: auto;
+}
+
+.list-container {
+    width: 100%; /* List takes full width */
+    overflow-x: auto; /* For horizontal scrolling on smaller screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; /* Adjust column width based on content */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.image-container {
+    flex: 1; /* Adjust this value to control space allocation */
+}
+
+.list-container {
+    flex: 2; /* Adjust this value to control space allocation */
+}

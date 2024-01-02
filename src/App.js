@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import ExperienceCalculator from './components/experience_calculator/ExperienceCalculator';
 import Creatures from './components/creatures/Creatures';
+import Map from './components/map/Map';
 
 function App() {
   const [activeTab, setActiveTab] = useState('calculator');
@@ -13,10 +14,12 @@ function App() {
 
           <button className={`tab-link ${activeTab === 'calculator' ? 'active' : ''}`} onClick={() => setActiveTab('calculator')}>Experience Calculator</button>
           <button className={`tab-link ${activeTab === 'creatures' ? 'active' : ''}`} onClick={() => setActiveTab('creatures')}>Creatures</button>
+          <button className={`tab-link ${activeTab === 'map' ? 'active' : ''}`} onClick={() => setActiveTab('map')}>Map</button>
         </div>
         <div className="tab-content">
           {activeTab === 'calculator' && <ExperienceCalculator />}
           {activeTab === 'creatures' && <Creatures/>}
+          {activeTab === 'map' && <Map/>}
         </div>
       </div>
     </div>

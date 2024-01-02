@@ -4,13 +4,13 @@ import './Creatures.css'; // Adjust the path as necessary
 
 function Creatures() {
     const [creatures, setCreatures] = useState([]);
+    const file_path = './AO spreadsheet - Criaturas.csv';
 
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch('AO spreadsheet - Criaturas.csv');
+                const response = await fetch(file_path);
                 const csvText = await response.text(); // Read the CSV content as text
-                console.log(csvText)
                 const parsedData = Papa.parse(csvText, { header: true, skipEmptyLines: true });
                 setCreatures(parsedData.data);
             } catch (error) {
