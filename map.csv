@@ -6,14 +6,14 @@ Number,Name,Type,Resource
 64, Lindos Este, City, -
 156, Arghal, City, -
 110, Isla Morlock, Island, Tejo
-4, Suburbios infectados, Bosque, Zombies
-22, Bosque, Bosque, Entrada M.Thyr (Hierro)
+4, Suburbios infectados, Bosque, Zombies+Esqueletos
+22, Bosque, Entrada Minas, M.Thyr (Hierro)
 25, Bosque Místico, Bosque, Tejo
 28, Laberinto arañas, Bosque, Arañas
-24, Bosque fantasmal, Bosque, Entrada D.Dragon
-98, Isla Dungeon Veril, Island, Entrada D.Veril
-39, Bosque Dorck, Bosque, -
+24, Bosque fantasmal, Entrada Dungeon, D.Dragon
+98, Isla Dungeon Veril, Entrada Dungeon, D.Veril
+39, Bosque Dorck, Bosque, Orcos+Arañas
 36, Fuerte Orco, Bosque, Orcos
-38, Bosque Dorck, Bosque, Entrada M.Rapajik (Plata)
+38, Bosque Dorck, Entrada Minas, M.Rapajik (Plata)
 10, Bosque de Tigres, Bosque, Tigres
 75, Bosque de Tortugas, Bosque, Tortugas
