@@ -6,10 +6,29 @@ Number,Name,Type,Resource
 64, Lindos Este, City, -
 156, Arghal, City, -
 110, Isla Morlock, Island, Tejo
-4, Suburbios infectados, Bosque, Zombies
-22, Entrada minas Thyr, Bosque, Hierro
+4, Suburbios infectados, Bosque, Zombies+Esqueletos
+22, Bosque, Entrada Minas, M.Thyr (Hierro)
 25, Bosque Místico, Bosque, Tejo
 28, Laberinto arañas, Bosque, Arañas
-24, Bosque fantasmal, Bosque, Entrada D.Dragon
-98, Isla Dungeon Veril, Island, Entrada D.Veril
-39, Bosque Dorck, Bosque, -
+24, Bosque fantasmal, Entrada Dungeon, D.Dragon
+98, Isla Dungeon Veril, Entrada Dungeon, D.Veril
+39, Bosque Dorck, Bosque, Orcos+Arañas
+36, Fuerte Orco, Bosque, Orcos
+38, Bosque Dorck, Entrada Minas, M.Rapajik (Plata)
+10, Bosque de Tigres, Bosque, Tigres
+75, Bosque de Tortugas, Bosque, Tortugas
+6, Bosque de Duendes, Bosque, Duendes
+70, Bosque de Goblins, Bosque, Goblins
+76, Entrada Dungeon Marabel, Entrada Dungeon, D.Marabel
+69, Bosque de Arañas, Bosque, Arañas
+68, Bosque de Jabalies, Bosque, Jabalies
+67, Bosque de Osos, Bosque, Osos
+160, Bosque de Tortugas, Bosque, Tortugas
+156, Arghal Oeste, Ciudad, -
+161, Bosque de Osos, Bosque, Osos
+162, Mar sur de Veleta, Mar, -
+47, Isla Veleta, Isla, Galeon Fantasmal
+61, Puerto de Banderbill, Ciudad, -
+150, Puerto de Arghal, Ciudad, -
+183, Entrada Dungeon Vespar, Entrada Dungeon, D.Vespar
+139, Isla de la Muerte, Entrada Dungeon, D.Speculum
